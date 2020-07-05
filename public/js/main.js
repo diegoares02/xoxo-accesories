@@ -35,8 +35,7 @@ function cargarArticulos(el) {
             <div class='d-flex justify-content-center align-items-center'>
             <p class='precio'>${element.precio} Bs</p></div>
           </div>        
-        </div>
-        <a href="#" class="btn btn-block btn-success">Contáctanos <i class="fab fa-whatsapp"></i></a>
+        </div>        
         </div></div>`
       });
       categoria.innerHTML = articulo + '</div>'
@@ -45,6 +44,7 @@ function cargarArticulos(el) {
       console.log(err)
     });
 }
+//<a href="#" class="btn btn-block btn-success">Contáctanos <i class="fab fa-whatsapp"></i></a>
 function menuCategorias(data) {
   let list = '';
   let listTab = '';
